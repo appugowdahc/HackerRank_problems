@@ -1,6 +1,6 @@
 def gemstones(arr):
     # Initialize a set with all possible minerals 'a' to 'z'
-    gemstone_set = set('abcdefghijklmnopqrstuvwxyz')
+    gemstone_set = set(arr[0])
     
     # Iterate through each rock's minerals
     for minerals in arr:
